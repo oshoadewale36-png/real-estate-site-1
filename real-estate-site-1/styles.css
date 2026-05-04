@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a; /* deep dark blue */
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+}
+
+.navbar a {
+  color: #ddd;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+.hero {
+  height: 70vh;
+  background: url("images/house1.jpg") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+/* SEARCH */
+.search {
+  text-align: center;
+  margin: 20px;
+}
+
+.search input {
+  width: 60%;
+  padding: 10px;
+}
+
+.search input {
+  background: #1e293b;
+  border: none;
+  color: white;
+}
+.properties {
+  max-width: 1200px;
+  margin: auto;
+}
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  display: block;
+}
+button {
+  background: gold;
+  color: black;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* CONTACT */
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 60%;
+  margin: 10px;
+  padding: 10px;
+}
