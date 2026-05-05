@@ -112,11 +112,18 @@ body {
   margin: 40px
 }
 .property-card {
-  width: 250px;
+  width: 260px;
   background: #1e2a38
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   text-align: center;
+  transition: transform 0.3s  ease;
+}
+.property-card:hover {
+  transform: transform 0.3s ease;
+}
+.property-card {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 .property-card img {
   width: 100%;
@@ -140,11 +147,14 @@ body {
   display: flex;
   justify-content: center;
   align-item: flex-start;
-  gap: 40px;
-  margin: 40px;
+  gap: 50px;
+  margin: 60px auto;
+  max-width: 1200px;
 }
 .contact {
-  background: white;
+  background: #ffffff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
