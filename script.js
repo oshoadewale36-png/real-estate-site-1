@@ -18,5 +18,23 @@ function sendMessage(event) {
   let name = document.getElementById("name").value;
 
   document.getElementById("formMessage").innerText =
-    "Thanks " + name + ", we will contact you soon!";
-}
+    "Thanks " + name + ", we will contact you soon!">  
+    
+    funvtionunction bookProperty(property) {
+  docume . getElementById("bookingModal").style.display = "flex;
+    document.getElementById("propertyName").value = property;
+  }
+  function closeModal() {
+    document.getElementById("bookingModal").style.display = "none";
+  }
+  function submitBooking() {
+    let name = document.getElementById("clientName").value;
+    let email = document.getElementById("clientEmail").value;
+    let property = document.getElementById("propertyName").value;
+    if (name === "" || email === "") {
+      alert("Fill all fields");
+      return;
+    }
+    alert("Booking confirmed for " + property);
+    closeModal();
+  }
