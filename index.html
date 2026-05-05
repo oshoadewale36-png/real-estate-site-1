@@ -10,26 +10,27 @@
 <body>
 
 <header>
-  <div class="navbar">
-    <h1>PrimeHomes</h1>
+  <header class="navbar">
+    <h1 class="logo">PrimeHomes</h1>
     <nav>
       <a href="#">Home</a>
-      <a href="#">Properties</a>
-      <a href="#">Contact</a>
+      <a href="#"Properties">properties</a>
+      <a href="#"Contact">contact</a>
     </nav>
-  </div>
 </header>
 
 <section class="hero">
+  <div class="overlay">
   <h2>Find Your Dream Home</h2>
   <p>Luxury homes made simple</p>
+  </div>
 </section>
 
 <section class="search">
   <input type="text" id="search" placeholder="Search location..." onkeyup="searchProperty()">
 </section>
 <div class="main-section">
-  <div class="properties">
+  <div class="properties" id="properties">
   <div class="property-card"data-location="lagos">
     <img src="images/house1.jpg" alt="house">
     <h3>Lagos Apartment</h3>
@@ -52,19 +53,16 @@
   </div>
 
   
-<section class="contact">
+<div class="contact" id="contact">
   <h2>Contact Agent</h2>
   <form>
     <input type="text" placeholder="Adewale Rayan" required>
     <input type="email" placeholder="oshoadewale36@gmail.com" required>
     <textarea placeholder="Message"></textarea>
     <button>Send</button>
-  </form>
-</section>
-
-  
+  </form
 <footer>
-  <p>© 2026 PrimeHomes</p>
+  <p>© 2026 PrimeHomes. All rights reserved</p>
 </footer>
 
 </body>
