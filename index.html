@@ -51,9 +51,7 @@
     <p>₦60,000,000</p>
     <button onclick="bookProperty('PH Villa')">Book</button>
   </div>
-
-  
-<div class="contact" id="contact">
+  <div class="contact">
   <h2>Contact Agent</h2>
     <input type="text" placeholder="Adewale Rayan" required>
     <input type="email" placeholder="oshoadewale36@gmail.com" required>
@@ -64,6 +62,16 @@
 <footer>
   <p>© 2026 PrimeHomes. All rights reserved</p>
 </footer>
+    <div id="bookingModel" class="modal">
+      <div class="modal-content">
+        <span onlick="closeModal()" class="close">&times;</span>
+        <h2>BOOK Property</h2>
+        <input type="text" id="clientname" placeholder="Adewale Rayan"
+          <input type="email" id="clientname" placeholder="oshoadewale36@gmail.com">
+        <input type="text" id="propertyName" readonly>
+        <button onclick="submi tBooking()">confrim Booking</button>
+      </div>
+    </div>
 
 </body>
 </html>
