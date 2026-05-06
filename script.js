@@ -22,7 +22,7 @@ function sendMessage(event) {
     
     funvtionunction bookProperty(property) {
   docume . getElementById("bookingModal").style.display = "flex;
-    document.getElementById("propertyName").value = property;
+    document.getElementById("propertyName").value = propertyName;
   }
   function closeModal() {
     document.getElementById("bookingModal").style.display = "none";
